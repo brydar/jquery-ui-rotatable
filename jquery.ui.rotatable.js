@@ -6,7 +6,7 @@ $.widget("ui.rotatable", $.ui.mouse, {
     options: {
         handle: false,
         angle: false,
-        wheelRotate: true,
+        wheelRotate: false,
         snap: false,
         step: 22.5,
 
