@@ -55,7 +55,7 @@ $.widget("ui.rotatable", $.ui.mouse, {
         if (!this.options.handle) {
             //handle = $(document.createElement('div'));
             //handle.addClass('ui-rotatable-handle');
-            handle = $('.ui-rotatable-handle');
+            handle = this.element.find('.ui-rotatable-handle');
         }
         else {
             handle = this.options.handle;
