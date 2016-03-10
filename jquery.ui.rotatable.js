@@ -53,8 +53,8 @@ $.widget("ui.rotatable", $.ui.mouse, {
     _create: function() {
         var handle;
         if (!this.options.handle) {
-            handle = $(document.createElement('div'));
-            handle.addClass('ui-rotatable-handle');
+            //handle = $(document.createElement('div'));
+            //handle.addClass('ui-rotatable-handle');
         }
         else {
             handle = this.options.handle;
@@ -85,8 +85,8 @@ $.widget("ui.rotatable", $.ui.mouse, {
     },
 
     _destroy: function() {
-        this.element.removeClass('ui-rotatable');
-        this.element.find('.ui-rotatable-handle').remove();
+        //this.element.removeClass('ui-rotatable');
+        //this.element.find('.ui-rotatable-handle').remove();
 
         if (this.options.wheelRotate) {
             this.element.unbind('wheel', this.listeners.wheelRotate);
