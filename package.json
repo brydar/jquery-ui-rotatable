@@ -20,7 +20,6 @@
     ],
     "homepage": "https://github.com/godswearhats/jquery-ui-rotatable",
     "files": [
-      "jquery.ui.rotatable.min.js",
       "jquery.ui.rotatable.js"
     ],
     "main": "jquery.ui.rotatable.js"
